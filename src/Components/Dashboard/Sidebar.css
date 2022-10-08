@@ -1,0 +1,376 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.SideBar {
+  
+  height: 100vh;
+  background: #ffffff;
+  width: 50vh;
+}
+
+.ant-layout-sider, .ant-layout-sider-dark, .SideBar {
+  position: fixed;
+  z-index: 1;
+  flex: 0 0 100px !important;
+  max-width: 100px !important;
+  min-width: 60px !important;
+  width: 61px !important;
+}
+.ant-layout-sider-zero-width-trigger {
+  background-color: #1890ff !important;
+  }
+ /* .ant-layout-sider-below .ant-layout-sider-dark  {
+
+  flex: 0 0 55px !important;
+  width: 55px !important;
+  max-width: 70px !important;
+  min-width: 63px !important;
+ 
+} */
+/* .ant-layout-sider-below, .ant-layout-sider-dark, .ant-layout-sider, .SideBar{
+  flex: 0 0 100px !important;
+  width: 55px !important;
+  max-width: 70px !important;
+  min-width: 63px !important;
+} */
+/* .ant-menu-dark.ant-menu-inline .ant-menu-item,
+.ant-menu-dark.ant-menu-inline .ant-menu-submenu-title {
+  width: 60px;
+  height: 70px;
+} */
+.Logo img {
+  width: 60px;
+  height: 60px;
+}
+.midicon {
+  margin-top: 100px;
+}
+.midicon img {
+  width: 35px;
+  height: 35px;
+  /* margin-bottom: 10px; */
+}
+.ant-menu-item,
+.ant-menu-item-only-child {
+  padding-left: 10px !important;
+}
+.ant-menu-item,
+.ant-menu-item-only-child,
+.midicon3 {
+  padding-left: 10px !important;
+}
+.boticon {
+  width: 30px;
+  height: 30px;
+  margin: 70px 15px;
+}
+.boticon img {
+  margin-top: 15px;
+}
+.ant-layout-header {
+  background: #F4F9FF !important;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  height: 70px !important;
+  padding: 0 20px !important;
+  margin-left: 70px;
+}
+.headright{
+  float: right;
+  margin-right: 30px;
+  /* margin-left: 150px; */
+  border-radius: 5px;
+}
+.ant-layout {
+  background: #F4F9FF;
+  /* height: fit-content; */
+}
+.lefthead {
+  font-weight: 700;
+  font-size: 28px;
+  margin-left: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+.ant-btn-primary {
+  /* width: 150px !important; */
+  /* float: right; */
+  margin-top: 20px;
+  /* font-family: 'Montserrat', sans-serif; */
+  /* margin-left: 40px; */
+}
+.midhead {
+  margin-top: 5px;
+  width: 50px !important;
+  font-family: 'Montserrat', sans-serif;
+}
+.ant-input-affix-wrapper {
+  margin-left: 120px !important;
+  width: 40% !important;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #2B78D4;
+  color: #2B78D4;
+}
+
+.contentGrid{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  row-gap: 0;
+  column-gap: 0ch;
+  margin: 0 8vh 0 14vh;
+  /* margin-left: 70px; */
+}
+.card1 {
+  border-radius: 20px;
+}
+.card1:hover{
+  border-style: solid;
+  border-width: 2px;
+  border-color: #2B78D4;
+}
+.ant-card-body {
+  padding: 9px !important;
+}
+.ant-col .ant-col-4{
+  padding-left: 6px;
+}
+.cardImg {
+  margin: 7px 15px;
+  width: 35px;
+  height: 35px;
+  background-color: #d1dcf4;
+  border-radius: 5px;
+}
+
+.cardTitile {
+  color: #002f68;
+  font-weight: 600;
+  font-style: bold;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 15px;
+  margin-top: 10px;
+}
+.cardPara {
+  font-weight: 400;
+  font-size: 10px;
+  color: #5c83b1;
+  font-family: 'Montserrat', sans-serif;
+}
+.cardSpan {
+  font-size: 13px;
+  color: #5c83b1;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 20px;
+}
+.card2Para{
+  color: #7d7d7d;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 10px !important;
+  font-family: 'Montserrat', sans-serif;
+}
+.card2btn{
+  float: right;
+  border-radius: 10px;
+  margin: 10px 10px !important;
+}
+
+.card2{
+  display: none;
+}
+.site-card-border-less-wrapper{
+  display: block;
+}
+.gutter-box {
+  padding: 8px 0;
+  background: #00a0e9;
+}
+
+
+.ant-row{
+  /* height: 150px !important; */
+  margin:  0 !important;
+}
+
+.ant-menu-vertical, .ant-menu-item:not(:last-child), .ant-menu-vertical-left, .ant-menu-item:not(:last-child), .ant-menu-vertical-right, .ant-menu-item:not(:last-child), .ant-menu-inline, .ant-menu-item:not(:last-child){
+  margin-bottom: 5px !important;
+}
+/* .ant-menu-inline.ant-menu-root .ant-menu-item, .ant-menu-inline.ant-menu-root .ant-menu-submenu-title{
+  align-items: normal !important;
+} */
+.ant-layout-content{
+  margin: 15px 0px !important;
+}
+.btndiv{
+  display: flex;
+  justify-content: space-between;
+}
+.deletebtn{
+  border-radius: 5px;
+  /* width: 65px !important; */
+  margin: 10px 0px 0 70px;
+}
+.ant-input{
+  /* flex-basis: 40%; */
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: 0;
+  border-bottom: 1px solid #2B78D4;
+}
+.col2para p{
+  display: flex;
+  flex-direction: column;
+  color: #002F68;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 25px;
+  padding-left: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+.ant-modal-header{
+  border-radius: 24px 24px 0 0;
+  border-bottom: none;
+}
+.ant-modal-content{
+  border-radius: 24px !important;
+}
+.ant-modal-title{
+  color: #A7B0C3 !important;
+}
+
+
+.ant-upload.ant-upload-select-picture-card {
+  border-radius: 12px !important;
+  width: 100px !important;
+  height: 110px !important;
+  background-color: #D1DCF4;
+}
+.popupfooter{
+  margin-top: 40px !important;
+}
+.popupbtn{
+  float: right;
+  border-radius: 10px;
+  width: 25%;
+  height: 35px !important;
+  margin: 10px 0px 0 220px !important;
+  background-color: #2B78D4;
+}
+.popupdelbtn{
+  border-radius: 5px;
+  width: 25%;
+  height: 35px !important;
+  font-weight: 500;
+  margin: 10px 0px 0 10px !important;
+  border-style: solid;
+  border-color: #2B78D4;
+  border-width: 1px;
+  color: #2B78D4;
+}
+.ant-modal-close-x {
+  width: 30px;
+  height: 30px;
+  border-radius: 95px;
+  background-color: #EFF1F8;
+  margin: 10px 10px;
+  color: #2B78D4;
+  line-height: 30px;
+}
+
+.inputText, .inputText:focus{
+  color: #002F68;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+}
+.ant-input:placeholder-shown{
+  font-size: 12px;
+  font-weight: 100;
+}
+.inputTextarea{
+  color: #002F68;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+}
+.modalfield{
+  width: 500px !important;
+}
+.modalfield .ant-modal-close-x {
+  margin: 30px 28px;
+}
+.modalfield .cardTitile{
+  margin-top: 5px;
+}
+.modalfield .rowfield{
+  margin-top: 25px !important;
+}
+.modalfield .ant-input:placeholder-shown{
+  width: 230px;
+}
+.modalfield .col2para p{
+  padding-left: 60px;
+  line-height: 30px;
+}
+.modalfield .inputText, .inputText:focus{
+  width: 230px !important;
+  line-height: 30px;
+}
+.modalfield .popupbtn{
+  margin: 10px 0px 0 70px !important;
+}
+.modalfield .inputTextarea{
+  width: 230px !important;
+}
+
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+.contentGrid {
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  margin: 0 0px 0 15vh;
+}
+.headright {
+    margin-right: 0vh;
+}
+.midicon {
+  margin-top: 10vh;
+}
+.boticon {
+  margin: 5vh 15px;
+}
+}
+@media screen  and (max-width: 768px){
+  .contentGrid {
+    grid-template-columns: 50% 50%;
+    margin: 0 0 0 17vh;
+  }
+  .ant-input-affix-wrapper {
+    margin-left: 18vh !important;
+  }
+  .ant-btn-primary {
+    float: left;
+}
+.midicon {
+  margin-top: 10vh;
+}
+.boticon {
+  margin: 7vh 15px;
+}
+}
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
+  .contentGrid {
+    grid-template-columns: 25% 25% 25% 25%;
+    margin: 0 8vh 0 14vh;
+  }
+  .headright{
+    margin-right: 50px;
+  }
+  .boticon {
+    margin: 7vh 15px;
+  }
+}
